@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en-us">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONTHLY PROVISIONS LIST :</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="provisionsList.js"></script>
+  </head>
+
+  <body>
+    <div class="image-class">
+      <img src="image.jpg" height="300 px" width="100%" />
+    </div>
+    <h4>MONTHLY PROVISIONS LIST :</h4>
+    
+    <div class = "dropdown" onclick = "showOptions()">
+      <b>CLICK TO SEE THE LIST</b>
+    </div>
+    <div id = "options">
+       <label for = "one">
+          <input type = "checkbox" id = "one" name="items" value = "Rice 5 Kg" />
+          RICE 5 KG
+       </label>
+       <label for = "two">
+          <input type = "checkbox" id = "two" name="items"  value = "Oil 2L" />
+          OIL 2L
+       </label>
+       <label for = "three">
+          <input type = "checkbox" id = "three"  name="items" value = "Atta 2 KG" />
+          ATTA 2 KG
+       </label>
+       <label for = "four">
+          <input type = "checkbox" id = "four"  name="items" value = "Toor Dal 1 KG" />
+          TOOR DHAL 1 KG
+       </label>
+       <label for = "five">
+          <input type = "checkbox" id = "five" name="items"  value = "Moong Dal 1 KG" />
+          MOONG DHAL 1 KG
+       </label>
+       <label for = "six">
+        <input type = "checkbox" id = "six"  name="items" value = "Sugar 1 KG" />
+        SUGAR 1 KG
+     </label>
+     <label for = "seven">
+        <input type = "checkbox" id = "seven"  name="items" value = "Channa Dal 1KG" />
+        CHANNA DHAL 1KG
+     </label>
+     <label for = "eight">
+        <input type = "checkbox" id = "eight"  name="items" value = "Salt 1 Packet" />
+        SALT 1 PACKET
+     </label>
+     <label for = "nine">
+        <input type = "checkbox" id = "nine"  name="items" value = "Biriyani Masala 1 Packet" />
+        BIRIYANI MASALA 1 PACKET
+     </label>
+     <label for = "ten">
+        <input type = "checkbox" id = "ten"  name="items" value = "Nutella" />
+        Nutella
+     </label>
+    </div>
+<div>
+    <input type= "button" onclick= 'check()' value= "Select All" id="checkAll"/>
+    <input type= "button" onclick= 'unCheck()' value= "Clear List" id="unCheckAll"/>
+    <button id="getOptions" onclick = "getOptions1()" > Get all Selected Items </button> <br>
+</div>  
+    <p id = "output" class="output-a"></p>
+    
+
+  </body>
+</html>
