@@ -1,0 +1,48 @@
+body{
+    min-height: 100%;
+    font-size: x-large;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dropdown {
+    width: 350px;
+    height: 30px;
+    font-size:large;
+    padding: 50 10 px;
+    background-color: rgb(146, 177, 161);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(13, 13, 12);
+    text-align: center;
+    
+ }
+ #options {
+    margin: 5px;
+    width: 70%;
+    background-color: lightgrey;
+    display: none;
+    flex-direction: column;
+    border-radius: 12px;
+    font-size: medium;
+    font-family: cursive;
+ }
+ label {
+    padding: 2px;
+ }
+ label:hover {
+    background-color: aqua;
+ }
+ button {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(79, 125, 154);
+    border: 2px solid rgb(16, 16, 16);
+    margin: 5px;
+ }
+ .output{
+   font-size: large;
+    font-family: cursive;
+    display: block;
+    border: 5px;
+    border-color: black;
+ }
